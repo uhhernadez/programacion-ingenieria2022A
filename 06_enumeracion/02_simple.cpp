@@ -14,5 +14,4 @@ int main () {
     case Domingo: cout << "Domingo" << endl; break;
     default: cout<< "Este dia no existe" <<endl; break;
   }
-
 }
