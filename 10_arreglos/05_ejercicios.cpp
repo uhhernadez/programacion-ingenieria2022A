@@ -2,11 +2,17 @@
 #include <vector>
 using namespace std;
 
-int main () {
-  vector<int> valores(9);
-  
+vector<int> IniciaArreglo (int tamanio, int valor_inicial) {
+  vector<int> valores(tamanio);  
   for (int k = 0; k < valores.size(); k++) {
-    valores[k] = 1;
-    cout << k << " "<< valores[k] << endl;
+    valores[k] = valor_inicial;
   }
+  return valores;
+}
+
+int main () {
+  vector<int> a1 = IniciaArreglo(13, 3);
+  vector<int> a2 = IniciaArreglo(5, -3);
+  vector<int> a3 = IniciaArreglo(100, 0);
+  return 0;
 }
