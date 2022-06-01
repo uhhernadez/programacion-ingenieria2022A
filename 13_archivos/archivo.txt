@@ -1,0 +1,3 @@
+Hola mundo desde el archivo de texto
+3
+3.1416
